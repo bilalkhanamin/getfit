@@ -1,0 +1,21 @@
+@import '../mixins/background';
+
+.heading{
+     @include flex(center, center,column);
+ 
+     padding-top:5rem;
+     p{
+         text-transform: uppercase;
+         color:var(--primaryColor);
+         letter-spacing: 1px;
+         font-weight: 600;
+         letter-spacing:2px;
+     }
+     h1{
+         color:var(--mainBlack);
+        font-size:2rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        color:var(--mainWWhite)
+     }
+}

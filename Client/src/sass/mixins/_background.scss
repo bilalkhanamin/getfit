@@ -1,0 +1,9 @@
+@mixin bg($path){
+    width:100%;
+    height:100vh;
+    background-image: url($path);
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

@@ -1,0 +1,19 @@
+.btn{
+    padding:0.2rem 1rem;
+    font-size: .9rem;
+    font-weight: 400;
+    text-decoration: none;
+     background: var(--primaryColor);
+    outline:none;
+    border:none;
+    color:white;
+    text-transform:capitalize;
+    margin-top: 0.8rem;
+    border-radius: 5rem;
+    box-shadow: var(--lightShadow);
+
+    &:hover{
+        background: var(--lightWhite);
+        color:var(--mainBlack);
+    }
+}

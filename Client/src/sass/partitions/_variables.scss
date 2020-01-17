@@ -1,0 +1,19 @@
+:root {
+    --primaryColor: #FF6B3D;
+    --secColor: rgb(0, 0, 0);
+    --gradient:linear-gradient(to right,#FF6B3D, rgba(43, 57, 245, 0.8) );
+    --mainWhite: #fff;
+    --lightWhite:#f8f8f8;
+    --offWhite: #f1f1f1;
+    --mainBlack: #181818;
+    --mainGrey: #ececec;
+    --darkGrey: #cfcfcf;
+    --mainTransition: all 0.3s linear;
+    --mainSpacing: 3px;
+    --lightShadow: 0px 0px 20px 0px rgb(216, 216, 216);
+    --Shadow: 0px 0px 3px 0px rgb(199, 199, 199);
+    --btnShadow: 1px 0px 10px 0px rgb(201, 201, 201);
+    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    --rounded: 3.5rem 3.5rem 7rem 2.3rem;
+    --roundedFull: 2rem;
+  }
